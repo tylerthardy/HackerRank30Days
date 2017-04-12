@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace HackerRank30Days
 {
-    class Program
+    class Day0
     {
-        static void Main(string[] args)
+        public void DoStuff()
         {
-            new Day0().DoStuff();
+            Console.ReadLine();
         }
     }
 }
