@@ -17,14 +17,14 @@ namespace HackerRank30Days
             //////////
 
             // Declare second integer, double, and String variables.
-            int i2 = 12;
-            double d2 = 4.0;
-            string s2 = "is the best place to learn and practice coding!";
+            int i2;
+            double d2;
+            string s2;
 
             // Read and save an integer, double, and String to your variables.
-            int i3 = Int32.Parse(Console.ReadLine());
-            double d3 = Double.Parse(Console.ReadLine());
-            string s3 = Console.ReadLine();
+            i2 = Int32.Parse(Console.ReadLine());
+            d2 = Double.Parse(Console.ReadLine());
+            s2 = Console.ReadLine();
 
             // Print the sum of both integer variables on a new line.
             Console.WriteLine(i + i2);
