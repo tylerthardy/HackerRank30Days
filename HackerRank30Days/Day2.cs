@@ -23,7 +23,7 @@ namespace HackerRank30Days
             Console.WriteLine("The total meal cost is {0} dollars.", NearestDollar(GetMealCost(mealCost, tipPercent, taxPercent)));
         }
 
-    private static double GetMealCost(double mealCost, double tipPercent, double taxPercent)
+        private static double GetMealCost(double mealCost, double tipPercent, double taxPercent)
         {
             return mealCost + tipPercent / 100 * mealCost + taxPercent / 100 * mealCost;
         }
