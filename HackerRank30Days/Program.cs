@@ -10,7 +10,7 @@ namespace HackerRank30Days
     {
         static void Main(string[] args)
         {
-            Day10.Run();
+            Day11.Run();
 
             //Pause
             Console.ReadLine();
